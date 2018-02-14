@@ -1,13 +1,12 @@
 package model;
 
-import java.util.ArrayList;
-
 public class MovieBooking {
+	
 	String movieName;
 	String theatreName;
 	String screenTime;
 	int noOfTickets;
-	ArrayList<Integer> seats ;
+	String seatsRow ;
 	String ticketType;
 	
 	public String getMovieName() {
@@ -34,11 +33,11 @@ public class MovieBooking {
 	public void setNoOfTickets(int noOfTickets) {
 		this.noOfTickets = noOfTickets;
 	}
-	public ArrayList<Integer> getSeats() {
-		return seats;
+	public String getSeatsRow() {
+		return seatsRow;
 	}
-	public void setSeats(ArrayList<Integer> seats) {
-		this.seats = seats;
+	public void setSeatsRow(String seatsRow) {
+		this.seatsRow = seatsRow;
 	}
 	public String getTicketType() {
 		return ticketType;
